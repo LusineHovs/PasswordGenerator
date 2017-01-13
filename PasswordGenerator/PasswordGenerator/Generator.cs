@@ -13,7 +13,7 @@ namespace PasswordGenerator
         {
             using (var rng = new RNGCryptoServiceProvider())
             {
-                var data = new byte[16];
+                var data = new byte[4];
                 rng.GetBytes(data);
                 var seed = BitConverter.ToInt32(data, 0);
                 var rnd = new Random(seed);
