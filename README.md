@@ -1,7 +1,7 @@
 # PasswordGenerator
 
 In **Generator class** you will find **PasswordGenerator()** method, by using this you can generate random passwords with uppercase/lowercase letters, also numbers.
-**PasswordGenerator()** method uses **RNGCryptoServiceProvider class**.
+- **PasswordGenerator()** method uses **RNGCryptoServiceProvider class**.
 ~~~
 using (var rng = new RNGCryptoServiceProvider())
             {
