@@ -24,12 +24,12 @@ using (var rng = new RNGCryptoServiceProvider())
                 return password;
 ~~~
 
+Using **UserProgram class** you can execute the program, simply write the required length of password you want to generate, instead of 10. 
 
-
-
-
-UserProgram is for user actions, below you see the copy of UserProgram code, where you can input the required length of password instead of 10.
-
-```C#
+~~~ 
 Console.WriteLine(Generator.PasswordGenerator(10));
-```
+~~~
+
+
+
+
