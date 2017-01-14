@@ -24,7 +24,7 @@ In **Generator class** you will find **PasswordGenerator()** method, by using th
                 }
                 return password;
               
-
+```
 
 Using **UserProgram class** you can execute the program, simply write the required length of password you want to generate, instead of 10. 
 
