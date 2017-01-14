@@ -3,8 +3,8 @@
 In **Generator class** you will find **PasswordGenerator()** method, by using this you can generate random passwords with uppercase/lowercase letters, also numbers.
 - **PasswordGenerator()** method uses **RNGCryptoServiceProvider class**.
 ~~~
-```C#```
-using (var rng = new RNGCryptoServiceProvider())
+
+```C# using (var rng = new RNGCryptoServiceProvider())
             {
                 var data = new byte[4];
                 rng.GetBytes(data);
@@ -22,7 +22,7 @@ using (var rng = new RNGCryptoServiceProvider())
                     else
                         password += (char)rnd.Next(97, 122);
                 }
-                return password;
+                return password;```
                
 ~~~
 
